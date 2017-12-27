@@ -1,7 +1,8 @@
+a = [1,2,3]
+b = [4,5,6]
 
+c =list(zip(a, b))
+print (c)
 
-
-def F(n):
-	return lambda x, y: x*y*n
-
-print(F(4)(4,2))
+D = {1:'33', 4:'44'}
+print (D.get)
